@@ -1,6 +1,6 @@
 FROM java:8u77-jre-alpine
 
-MAINTAINER Fai Fung <ffung@xebia.com>
+# based on this repo: https://github.com/ffung/docker
 
 ENV version 5.5.1
 ENV root /lib
