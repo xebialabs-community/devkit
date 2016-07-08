@@ -31,6 +31,8 @@ VOLUME ["${home}/conf", \
 	"${home}/plugins", \ 
 	"${home}/repository"]
 
+ADD deployit-license.lic ${home}/conf/deployit-license.lic
+
 EXPOSE 4516
 
 CMD ["./run.sh"]
