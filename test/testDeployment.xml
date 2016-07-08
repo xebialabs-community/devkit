@@ -1,0 +1,8 @@
+<deployment type="INITIAL">
+    <deployables>
+        <ci ref="Applications/myFile/1.0" type="File"/>
+    </deployables>
+    <containers>
+        <ci ref="Infrastructure/linuxHost" type="host"/>
+    </containers>
+</deployment>
